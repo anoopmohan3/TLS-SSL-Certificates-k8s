@@ -7,10 +7,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - vemy.live
+    - <domain.com>
     secretName: hello-app-tls
   rules:
-  - host: "vemy.live"
+  - host: "<domain.com>"
     http:
       paths:
         - pathType: Prefix
